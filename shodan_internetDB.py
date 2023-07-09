@@ -16,7 +16,7 @@ style_bold = "\033[1m"
 style_bright = "\033[1;94m"
   
 parser = argparse.ArgumentParser(description='Info by IP')
-parser.add_argument("-t","--target",help="url [default, your IP]",default='')
+parser.add_argument("-t","--target",help="IP [default, your IP]",default='')
 params = parser.parse_args()
 
 
